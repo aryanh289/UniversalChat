@@ -1,0 +1,132 @@
+:root {
+    --bg-colour: black;
+    --border-colour: rgba(255, 255, 255, 0.497);
+    --element-hover: rgba(171, 181, 192, 0.159);
+    --btn-send: green;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: var(--bg-colour);
+    margin: 1rem auto;
+    color: white;
+  }
+  
+  /* <!-- Main container of the chat ui --> */
+  .base-container {
+    margin: 2rem auto;
+    background-color: var(--bg-colour);
+    padding: 1rem;
+    border: 0.05rem solid var(--border-colour);
+    border-radius: 0.5rem;
+    width: 50rem;
+    height: auto;
+  }
+  
+  /* <!-- All the styling elements here --> */
+  
+  .styling-elements {
+    display: flex;
+    background-color: var(--bg-colour);
+  }
+  
+  .style-elements {
+    padding: 0.4rem 0.4rem;
+    margin: 0.2rem;
+    border-radius: 0.7rem;
+    width: 1.2rem;
+    height: 1rem;
+  }
+  
+  .style-elements:hover {
+    background-color: var(--element-hover);
+  }
+  
+  .border-block {
+    border-right: 0.1rem solid var(--element-hover);
+  }
+  
+  .b-i-s,
+  .hlink,
+  .bn-list,
+  .bq {
+    display: flex;
+  }
+  
+  /* <!-- All the text comes here --> */
+  
+  .chat-text {
+    /* height: 20rem; */
+    text-align: left;
+    padding: 0.5rem;
+    background-color: var(--bg-colour);
+    color: white;
+  }
+  
+  .real-chat {
+    border: none;
+    width: 48rem;
+    height: auto;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+  }
+  
+  input:focus {
+    outline: none !important;
+  }
+  /* Person specific text styling */
+  /* .chat-text-display {
+    background-color: rgba(219, 214, 214, 0.23);
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .person-left {
+    border-radius: 1rem 1rem 1rem 0;
+    text-align: left;
+    padding-left: 1.2rem;
+  } */
+  
+  /* .person-right {
+    border-radius: 1rem 1rem 0 1rem;
+    text-align: right;
+    padding-right: 1.2rem;
+  } */
+  /* <!-- All the other functionality here --> */
+  
+  .attach-files {
+    border-radius: 0.8rem;
+  }
+  
+  .emoji {
+    display: flex;
+  }
+  
+  .btn-send {
+    background-color: var(--bg-colour);
+    border-radius: 0.5rem;
+    padding: 0.2rem 1.4rem;
+    margin-left: auto;
+    border: none;
+    color: white;
+  }
+
+  .bold .message-content{
+    font-weight: bold;
+  }
