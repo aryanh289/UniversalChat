@@ -1,4 +1,4 @@
-# UniversalChat
+# AllAroundChat
 MERN based real time chat application deployed on netlify and Heroku
 
 Demo Deployed link: https://62a44538cf7d9c6c16511c7b--the-awesome-aryanh289-site.netlify.app
